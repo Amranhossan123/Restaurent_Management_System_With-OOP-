@@ -69,34 +69,3 @@ class Admin(User):
 
     def view_menu(self,restaurent):
         restaurent.menu.show_menu()
-
-
-
-
-
-# restaurent=Restaurent("Mamar Rstora")
- # mn=Menu()
-# item=FoodItem("Pizza",12.45,30)
-# item2=FoodItem("Burger",15,50)
-# admin=Admin("imran","imran@gmail.com","01345","Dhaka")
-# admin.add_new_item(restaurent,item)
-# admin.add_new_item(restaurent,item2)
-# mn.add_menu_item(item)
-# mn.add_menu_item(item2)
-#mn.show_menu()
-
-
-
-# customer1=Customer("imran","imran@gmail.com","01345","Dhaka")
-# customer1.view_menu(restaurent)
-
-# item_name=input("Enter Item name:")
-# item_quantity=int(input("Enter Item quantity:"))
-
-# customer1.add_to_cart(restaurent,item_name,item_quantity)
-# customer1.view_cart()
-
-
-    
-     
-        
